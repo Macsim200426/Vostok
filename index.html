@@ -15,7 +15,7 @@
         <a-scene embedded arjs="patternRatio: 0.75">
 
         <a-assets>
-            <a-asset-item id="polon" response-type="arraybuffer" src="https://macsim200426.github.io/pol/vos.glb"></a-asset-item>
+            <a-asset-item id="polon" response-type="arraybuffer" src="https://macsim200426.github.io/pol/vostr.glb"></a-asset-item>
         </a-assets>
 
         <a-assets>
@@ -29,6 +29,8 @@
                 gltf-model="#polon"
                 scale="0.2 0.2 0.2"
                 animation-mixer="clip:Vost";
+                animation-mixer="clip:Vost1";
+                animation-mixer="clip:Vost2";
                 soundhandler
                 >
             </a-entity>
